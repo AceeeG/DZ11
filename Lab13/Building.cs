@@ -1,11 +1,13 @@
-﻿using System;
+﻿using Lab13;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Lab13
+namespace Lab
 {
+    [DevelopmentBuildingInfo("Амир", "Пельмень Groop")]
     internal class Building
     {
         private static uint id_counter = 1;

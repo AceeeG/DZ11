@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{3A74AA72-CACE-4843-93BF-78B7E3168E70}</ProjectGuid>
+    <ProjectGuid>{B3AED8DE-1D50-4B8D-AE36-C0174C858847}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Lab13</RootNamespace>
-    <AssemblyName>Lab13</AssemblyName>
+    <RootNamespace>Lab14</RootNamespace>
+    <AssemblyName>Lab14</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,10 +43,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BankAccount.cs" />
-    <Compile Include="BankTransaction.cs" />
-    <Compile Include="Building.cs" />
-    <Compile Include="BuildingList.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

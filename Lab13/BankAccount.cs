@@ -1,11 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace Lab13
+namespace Lab
 {
     enum BankType
     {
@@ -246,6 +244,11 @@ namespace Lab13
 
                 GC.SuppressFinalize(this);
             }
+        }
+        [Conditional("DEBUG_ACCOUNT")]
+        public void DumpToScreen()
+        {
+            Console.WriteLine($"ID: {id}, тип счёта: {type}, баланс: {balance}, имя: {name}");
         }
     }
 }
