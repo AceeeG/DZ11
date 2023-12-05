@@ -25,7 +25,7 @@ namespace Lab
         static void DoExercise1_Lab14()
         {
             Console.WriteLine("Упражнение 1\n");
-            BankAccount account = new BankAccount(BankType.Сберегательный, 10000, "Жорик");
+            BankAccount account = new BankAccount(BankType.Сберегательный, 10000, "DEBUG_ACCOUNT");
             account.DumpToScreen();
             AttributeCheck.CheckDumpToScreen(account);
         }
